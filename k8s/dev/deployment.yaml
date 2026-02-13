@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: springboot
-        image: springboot-devops
-        imagePullPolicy: Never
+        image: springboot-devops:8
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
         resources:
